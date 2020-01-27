@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="1880px" viewBox="0 0 375 1880" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Path 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M40.0326653,806.685351 C89.769426,815.070062 139.325358,827.927767 188.700461,845.258465 C262.763117,871.254512 327.9501,856.441666 359.192439,832.175685 C390.434778,807.909705 436.497798,784 449.165692,784 C457.610954,784 473.22239,1096.66667 496,1722 C502.934896,1772.08721 482.934896,1782.79748 436,1754.13081 C365.597656,1711.13081 323.4375,1873.48628 207.21875,1882.13081 C91,1890.77535 40.0326653,1817.88081 28.2109375,1775.13081 C20.3297856,1746.63081 11.005173,1433.87862 0.237099678,836.874232 L40.0326653,806.685351 Z" id="path-1"></path>
+        <filter x="-3.4%" y="-3.4%" width="106.8%" height="106.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="12" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile_home-02" transform="translate(0.000000, -463.000000)">
+            <g id="BG" transform="translate(-75.000000, 72.000000)">
+                <g id="Path-3" transform="translate(14.000000, 388.000000)">
+                    <path d="M39.7955656,22.6853509 C89.5323263,31.0700621 139.088258,43.9277667 188.463362,61.2584649 C262.526017,87.2545122 327.713001,72.4416656 358.955339,48.1756851 C390.197678,23.9097045 436.260698,0 448.928592,0 C457.373854,0 472.985291,312.666667 495.7629,938 C502.697796,988.08721 482.697796,998.797481 435.7629,970.130814 C365.360557,927.130814 323.2004,1089.48628 206.98165,1098.13081 C90.7629003,1106.77535 39.7955656,1033.88081 27.9738378,991.130814 C20.0926859,962.630814 10.7680733,649.87862 0,52.8742316 L39.7955656,22.6853509 Z" id="Path-2" fill="#CA3E7B"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Path-2" fill="#CA3E7B" xlink:href="#path-1"></use>
+                    <ellipse id="Oval" fill="#BE3D75" filter="url(#filter-3)" mask="url(#mask-2)" cx="146.5" cy="1703" rx="529.5" ry="529"></ellipse>
+                    <circle id="Oval" fill="#CA3E7B" mask="url(#mask-2)" cx="174.5" cy="1840.5" r="651.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

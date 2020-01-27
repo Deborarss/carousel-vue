@@ -1,0 +1,36 @@
+{
+  "songs": [
+    {
+      "id": 0,
+      "thumb": "card_thumb.jpg",
+      "alt": "Hayley Williams cantando de óculos branco",
+      "video": "https://www.youtube.com/watch?v=AEB6ibtdPZc",
+      "title": "Hard Times",
+      "text": "Hard Times - Hayley Williams"
+    },
+    {
+      "id": 1,
+      "thumb": "card_thumb2.jpg",
+      "alt": "Harry Styles cercado por pessoas",
+      "video": "https://www.youtube.com/watch?v=9NZvM1918_E",
+      "title": "Lights Up",
+      "text": "Lights Up - Harry Styles"
+    },
+    {
+      "id": 2,
+      "thumb": "card_thumb3.jpg",
+      "alt": "Billie Eilish ajoelhada em uma montanha de dollares",
+      "video": "https://www.youtube.com/watch?v=1DJuFuKydn0",
+      "title": "You Should See Me In a Crown",
+      "text": "You Should See Me In a Crown - Billie Eilish"
+    },
+    {
+      "id": 3,
+      "thumb": "card_thumb4.jpg",
+      "alt": "Hayley Williams com uma venda rosa nos olhos",
+      "video": "https://www.youtube.com/watch?v=EFEmTsfFL5A",
+      "title": "Ain't It Fun",
+      "text": "Ain't It Fun - Hayley Williams"
+    }
+  ]
+}

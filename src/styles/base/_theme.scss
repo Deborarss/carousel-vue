@@ -1,0 +1,90 @@
+#app{
+    overflow: hidden;
+}
+html {
+    overflow-x: hidden;
+}
+
+html, body {
+    @media screen and (max-width: 767px) {
+        overflow-x: hidden;
+    }
+    @media screen and (min-width: 768px) {
+        body {
+            overflow-x: initial;
+        }
+    }
+}
+
+body {
+    color: #B73870;
+    font-family: Roboto;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.container-margin {
+    @media screen and (min-width: 760px) {
+        margin: 0 15%;
+    }
+}
+
+.hide-desktop{
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+}
+
+.hide-mobile{
+    @media screen and (min-width: 767px){
+        display: none;
+    }
+}
+
+.only-lg {
+    display: none;
+    @media screen and (min-width: 992px){
+        display: initial;
+    }
+}
+
+.songs .owl-dots {
+    .owl-dot {
+        span {
+            background: #d3d3e3 !important;
+        }
+    }
+    .active {
+        span {
+            background: #B73870 !important;
+        }
+    }
+}
+
+.songs {
+    .owl-theme {
+        .owl-nav [class*='owl-'] {
+            color: transparent !important;
+        }
+    }
+
+    .owl-next {
+        background: url(../../src/assets/next.png)!important;
+        background-repeat: no-repeat !important;
+        background-position: 0 5px!important;
+        height: 45px;
+        position: absolute;
+        top: 80px;
+        right: -57px;
+    }
+
+    .owl-prev {
+        background: url(../../src/assets/prev.png)!important;
+        background-repeat: no-repeat !important;
+        height: 40px;
+        position: absolute;
+        top: 80px;
+        left: -57px;
+    }
+}
+
