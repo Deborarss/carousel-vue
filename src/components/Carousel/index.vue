@@ -11,7 +11,17 @@
           <div class="songs__cards__card__container">
             <img
               :src="require('./assets/' + card.thumb)"
+              :alt="card.alt"
+              @click="openModal(card.video)"
             />
+            <img 
+              src="./assets/play.svg" 
+              alt="Iniciar vídeo"
+              @click="openModal(card.video)"
+              class="play"
+            />
+            <h2>{{ card.title }}</h2>
+            <p>{{ card.text }}</p>
           </div>
         </div>
       </carousel>
@@ -29,15 +39,61 @@ export default {
   },
   components: {
     carousel
+  },
+  methods: {
+    openModal(videoUrl) {
+      console.log(videoUrl)
+      this.$store.dispatch("videoModal", videoUrl)
+      const modal = document.querySelector(".video")
+      console.log(modal);
+        
+      modal.style.top = `${window.pageYOffset}px`
+      document.documentElement.style.overflowY = "hidden";
+      
+    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
 
-.tips {
+.songs {
   .sct-title {
+    font-size: 39px;
+    font-weight: 300;
+    margin: 40px 0 20px 0;
+  }
 
+  &__cards__card__container {
+    background: url(./assets/card.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+    position: relative;
+    
+
+    .play {
+      position: absolute;
+      top: 90px;
+      left: 50%;
+      width: 20px;
+    }
+
+    img {
+      cursor: pointer;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+    }
   }
 }
 

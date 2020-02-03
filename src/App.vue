@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div class="container">
-      <carousel :data="songsData" />
-    </div>
+      <Carousel :data="songsData" />
+    </div>  
+    <Video /> 
   </div>
 </template>
 
@@ -10,7 +11,8 @@
 import "./styles/main.scss";
 
 //componentes a serem utilizados na LP
-import carousel from "./components/Carousel";
+import Carousel from "./components/Carousel";
+import Video from "./components/Video"
 
 //data a serem utilizados nos componentes
 import songsInfo from "./data/songs.json";
@@ -19,7 +21,8 @@ import songsInfo from "./data/songs.json";
 export default {
   name: "App",
   components: {
-    carousel
+    Carousel,
+    Video
   },
   data() {
     return {
